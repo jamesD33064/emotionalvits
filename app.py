@@ -77,8 +77,7 @@ def tts3(text, sample):
         audio, _ = tts(text, int(sample))
         return "Success", (hps.data.sampling_rate, audio)
     except:
-        return "输入参数不为整数或其他错误"
-
+        return "输入参数不为整数或其他错误", None
 app = gr.Blocks()
 with app:
     with gr.Tabs():
