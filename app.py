@@ -23,7 +23,7 @@ net_g = SynthesizerTrn(
     **hps.model)
 _ = net_g.eval()
 
-_ = utils.load_checkpoint("./G_49200.pth", net_g, None)
+_ = utils.load_checkpoint("./nene_final.pth", net_g, None)
 all_emotions = np.load("all_emotions.npy")
 emotion_dict = {
     "小声": 2077,
