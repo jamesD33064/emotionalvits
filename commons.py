@@ -119,6 +119,7 @@ def shift_1d(x):
 
 
 def sequence_mask(length, max_length=None):
+  # print(length)
   if max_length is None:
     max_length = length.max()
   x = torch.arange(max_length, dtype=length.dtype, device=length.device)

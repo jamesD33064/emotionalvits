@@ -7,7 +7,7 @@ from text.symbols import symbols
 from text import text_to_sequence
 import numpy as np
 import soundfile as sf 
-
+import librosa
 
 def get_text(text, hps):
     text_norm = text_to_sequence(text, hps.data.text_cleaners)
@@ -38,8 +38,24 @@ def tts(txt, emotion):
         x_tst_lengths = torch.LongTensor([stn_tst.size(0)])
         sid = torch.LongTensor([1]) # speaker id
         emo = torch.FloatTensor(all_emotions[emotion]).unsqueeze(0)
-
         audio = net_g.infer(x_tst, x_tst_lengths, sid=sid, noise_scale=0.667, noise_scale_w=0.8, length_scale=1, emo=emo)[0][0,0].data.float().numpy()
+
+        # file_path = "output.wav"
+        # audio, sr = librosa.load(file_path)
+        # audio = np.expand_dims(audio, axis=0)
+        # n_fft = 2048  # FFT窗口大小
+        # hop_length = 512  # 帧移
+        # n_mels = 80  # 梅尔滤波器数量
+        # mel_spec = librosa.feature.melspectrogram(y=audio, sr=sr, n_fft=n_fft, hop_length=hop_length, n_mels=n_mels)
+        # log_mel_spec = librosa.amplitude_to_db(mel_spec, ref=np.max)  # 转换为对数刻度
+        # feature_tensor = np.expand_dims(log_mel_spec, axis=0)  # 添加批量维度
+        # y = torch.tensor(feature_tensor, dtype=torch.float32)
+        # y = y.transpose(1, 2)  # 调整维度顺序 [batch_size, sequence_length, in_channels]
+        # y = y.squeeze(0)  # 移除批量维度 [80, 110]
+        # y = y.transpose(0, 1)  # 调整维度顺序 [110, 80]
+        # audio = net_g.voice_conversion(y=y, y_lengths=x_tst_lengths, sid_src=sid, sid_tgt=sid)[0][0, 0].data.float().numpy()
+
+
     return audio, randsample
 
 
@@ -50,7 +66,8 @@ def tts1(text, emotion):
     # print(audio)
     return "Success", hps.data.sampling_rate, audio
 
-msg, sr, audio = tts1("kimochi. like. input. macbook.",2)
-# msg, sr, audio = tts1("私はプログラムするのが好きです",2)
+# msg, sr, audio = tts1("like. input. macbook. burger. black tea.",2)
+msg, sr, audio = tts1("私はプログラムするのが好きです",2)
 
 sf.write('output.wav', audio, sr)
+

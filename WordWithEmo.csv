@@ -1,0 +1,119 @@
+﻿Sentence Japanese,Sentence English,Happy,Angry,Surprise,Sad,Fear
+昔、かわいい小さな女の子がいました,Once upon a time there was a cute little girl,0.5,0,0.5,0,0
+誰でもその子を見ると可愛がりましたが、特におばあさんが一番で、子供にあげないものは何もないほどの可愛がりようでした,"Anyone who saw the child loved him, but especially the grandmother, who seemed to love him so much that there was nothing he wouldn't give to the child.",0.67,0,0,0,0.33
+あるときおばあさんは赤いビロードの頭巾をあげました,Once my grandmother gave me a red velvet hood,0,0.5,0,0,0.5
+その頭巾は子供にとてもよく似合ったので子供は他のものをかぶろうとしなくなり、それでいつも赤頭巾ちゃんと呼ばれました,"The hood suited the child so well that the child did not want to wear anything else, so he was always called Little Red Riding Hood.",0,1,0,0,0
+ある日、おかあさんが赤頭巾に言いました,One day her mother said to Little Red Riding Hood,0.5,0.5,0,0,0
+「おいで、赤頭巾、ここにケーキが一つとワインが一本あるわ,"""Come on, Little Red Riding Hood, here's a cake and a bottle of wine.",0,1,0,0,0
+おばあさんのところへ持って行ってちょうだい,take it to grandma,0,0,0,0,0
+おばあさんは病気で弱っているの,The grandmother is sick and weak,0,0,0,1,0
+これを食べると体にいいのよ,Eating this is good for you,0,0,0,0,1
+暑くならないうちにでかけなさい,go out before it gets hot,0,0,0,1,0
+行くとき、ちゃんと静かに歩いて、道をそれないのよ,"When you go, walk quietly and don't stray from the road",0,0,0,0,0
+そうしないと転んでビンを割って、おばあさんは何ももらえなくなるからね,Otherwise you'll fall and break the bottle and the old lady won't get anything.,0,0,0.5,0.5,0
+部屋に入ったら、お早うございます、と言うのを忘れちゃだめよ,Don't forget to say good morning when you enter the room,0,0.5,0,0,0.5
+ご挨拶の前にあちこち覗き込んだりしないでね,Don't peek here and there before greeting,0,0,1,0,0
+」「よく気をつけるわ,"""I'll be careful",0,0,0,1,0
+」と赤頭巾はお母さんに言って、約束の握手をしました,"said Little Red Riding Hood to her mother, giving her the promised handshake.",0,0.33,0,0.33,0.33
+おばあさんは村から1.5キロ離れた森に住んでいて、赤頭巾が森に入ったちょうどそのとき、狼に会いました,"The old woman lived in the woods 1.5 kilometers from the village, and met a wolf just as Little Red Riding Hood entered the woods.",0,0.33,0,0,0.67
+赤頭巾は狼が悪いけものだと知らなくて、まったくこわがりませんでした,"Little Red Riding Hood didn't know the wolf was a bad beast, so she wasn't afraid at all.",0,0.33,0,0.33,0.33
+狼は言いました,the wolf said,0,0,0,0,0
+「こんにちは、赤頭巾ちゃん,"""Hello Little Red Riding Hood",0,1,0,0,0
+」「ご親切にありがとう、狼さん」「こんなに早くどこへ行くんだい、赤頭巾ちゃん?」「おばあさんのところよ,"""Thank you for your kindness, Mr. Wolf."" ""Where are you going so soon, Little Red Riding Hood?""",0,1,0,0,0
+」「エプロンには何が入ってるの?」「ケーキとワインよ,"""What's in your apron?"" ""Cake and wine",0,0,0,0,0
+昨日が焼いた日よ,Yesterday was the day I baked,1,0,0,0,0
+可哀そうな病気のおばあさんにおいしいものを食べてもらって丈夫になってもらうのよ,Give the poor sick old lady something delicious to eat and get strong.,0.25,0,0,0.25,0.5
+」「赤頭巾ちゃん、おばあさんはどこに住んでいるの?」「森をあとたっぷり700メートルいったところ,"""Little Red Riding Hood, where does your grandmother live?""",0,1,0,0,0
+おばあさんのお家は3本の大きな樫の木の下にあるの,Grandmother's house is under three big oak trees,0,0,0,0,0
+はしばみの木がすぐ下にあるから、きっとわかるわ,"The hazel tree is right below, so I'm sure you'll know",0,0,0,0,0
+」と赤頭巾は答えました,replied Little Red Riding Hood,0,1,0,0,0
+狼は、「なんて柔らかそうで若いんだ,"The wolf said, ""How tender and young you are!",1,0,0,0,0
+なんておいしそうに太ってるんだろう,how deliciously fat,0,0,0,0,0
+ばあさんよりうまそうだ,looks better than grandma,0,0,0,0,0
+おれはうまくやって両方つかまえなくちゃならん,I gotta get along and catch them both,0,0,0,0,0
+」と心の中で考えました,' I thought to myself,0,0,0,0,0
+それで狼はしばらく赤頭巾のそばを歩いて、それから言いました,"So the wolf walked by Little Red Riding Hood for a while, and then said,",0,1,0,0,0
+「赤頭巾ちゃん、見てごらん、このあたりの花はなんてきれいなんだろうね,"""Little Red Riding Hood, look how beautiful the flowers are around here.",0.5,0.5,0,0,0
+周りを見回してごらん,look around,0,0,0,0,0
+小鳥たちもとてもきれいにさえずっているのに君はきいてないみたいじゃないか,"Even the birds are singing so beautifully, but you don't seem to be listening",0,0.5,0,0.5,0
+君は学校へ行くみたいに真面目くさって歩いてるんだね　森の中のここではほかは何でも楽しいのに,You're walking as serious as if you were going to school.Everything else is fun here in the woods.,0.5,0,0,0,0.5
+"」
+
+赤頭巾は目をあげました","”
+
+Little Red Riding Hood raised her eyes",0,1,0,0,0
+太陽の光が木の間からあちこちにおどっていて、きれいな花が一面に生えているのを見ると、赤頭巾は、「おばあさんに摘んだばかりの花束を持って行けば、それも喜んでくれるわ,"When the sun was dancing here and there through the trees, and there were beautiful flowers all over the place, Little Red Riding Hood said, ``If you bring your grandmother a freshly picked bouquet, she will be very happy with it.",0.33,0.17,0,0.17,0.33
+まだ早いからちゃんとそこに着くわ,"It's still early, so I'll get there",0,0,0,0,0
+」と考えました,thought,0,0,0,0,0
+それで花をさがしに道から森の中へ走って行きました,So I ran off the road into the woods looking for flowers.,0,0,0,0,1
+一本摘むと、もっと向こうにもっときれいな花を花があるように見えてそのあとを追いかけ、だんだん森の奥へ入って行きました,"When I picked one, it looked like there was a more beautiful flower in the distance, and I chased after it, gradually entering the depths of the forest.",0.5,0,0,0,0.5
+その間に狼はまっすぐおばあさんの家へ走って行き、戸をたたきました,Meanwhile the wolf ran straight to the grandmother's house and knocked on the door.,0,0,0,0,0
+「そこにいるのは誰?」「赤頭巾よ」と狼は答えました,"""Who's there?"" ""Little Riding Hood,"" replied the Wolf.",0,0,0,0,0
+「ケーキとワインをもってきてるの,"""I'm bringing cake and wine",0,0,0,1,0
+戸を開けて,open the door,0,0,0,0,1
+」「掛け金をあげて,"""Give me the bet",0,0,0,0,1
+私は弱って起きられないから」とおばあさんは叫びました,"I am too weak to get up,' cried the old woman.",0,0,0,1,0
+掛け金を上げると戸はパッと開き、狼は一言も言わないでまっすぐおばあさんのベッドに行くとおばあさんを食べてしまいました,"He lifted the latch and the door flew open, and without a word the wolf went straight to the grandmother's bed and ate her.",0,0.33,0,0,0.67
+それから狼はおばあさんの服を着て、帽子をかぶり、ベッドに寝てカーテンをひきました,"Then the wolf put on his grandmother's clothes, put on his hat, lay down on the bed and drew the curtains.",0,0,0,0.67,0.33
+ところが、赤頭巾は花を摘んで走り回っていました,But Little Red Riding Hood was picking flowers and running around.,0,1,0,0,0
+たくさん集めてもう持てなくなるとおばあさんのことを思い出し、道を進みました,"When I collected a lot and could not carry it anymore, I remembered my grandmother and continued on the road.",0,0,0,1,0
+赤頭巾は家の戸が開いたままになっているのに驚き、部屋に入ると、とても変な気分になったので、「まあ、今日はとても不安な気持ちだわ,"Little Red Riding Hood was surprised to find the door of the house left open, and when she entered the room she felt so strange that she said, ""Well, I feel very uneasy today.",0,0.17,0.17,0.17,0.5
+いつもだとおばあさんといるのがすきなのに,I usually like being with my grandmother,0,0,0,0,0
+」と思いました,"""I thought",0,0,0,0,0
+「お早うございます,"""Good morning",0,0,0,0,0
+」と叫びましたが返事がありませんでした,'' but there was no answer,0,0,0,0,0
+それで赤頭巾はベッドに行き、カーテンを開けました,So Little Red Riding Hood went to bed and opened the curtains,0,0.5,0,0,0.5
+そこに顔まで深々と帽子をかぶったおばあさんがいて、とても奇妙に見えました,"There was an old lady with a hat on her face, and she looked very strange.",0,0,0,0,0
+「まあ、おばあさん、とても耳が大きいわ,"""Well, Grandmother, you have very big ears.",0,0,0,0,0
+」と赤頭巾は言いました,said Little Red Riding Hood,0,1,0,0,0
+「お前の声がよく聞こえるようにだよ,"""Make sure your voice is heard",0,0,0,0.5,0.5
+」と返事,' replied,0,0,0,0,0
+「だけど、おばあさん、とても目が大きいわ,"""But Grandmother, you have very big eyes.",0,0,0,0,0
+」と赤頭巾は言いました,said Little Red Riding Hood,0,1,0,0,0
+「お前がよく見えるようにだよ,"""So that you can see well",0,0,0,0,0
+」「だけど、おばあさん、とても手が大きいわ,"""But Grandmother, you have very big hands.",0,0,0,0,0
+」「お前をよく抱けるようにだよ,"""So that I can hold you well",0,0,0,0,0
+」「だけど、おばあさん、おそろしく大きな口よ,"""But, old lady, you have a terribly big mouth.",0,0,0,1,0
+」「お前をよく食えるようにだよ,"""So that I can eat you well",0,0,0,0,1
+」狼はこう言うか言わないうちに一跳びでベッドから出ると赤頭巾を飲み込んでしまいました,"' Before the wolf could say this, he leapt out of bed and swallowed Little Red Riding Hood.",0,0.33,0,0,0.67
+狼は食べ終わると、またベッドに寝て、眠りこみ、とても大きないびきをかき始めました,"When the wolf had finished eating, he went back to bed, fell asleep, and started snoring very loudly.",0,0.67,0,0,0.33
+猟師がちょうど家をとおりがかり、「おばあさんはなんといういびきをかいているんだ,"A hunter just passed by the house and said, 'What the old woman is snoring!",0,0,0,0,0
+大丈夫かちょっと見てみなくては,I have to see if it's okay,0,0,0,0,0
+」と思いました,"""I thought",0,0,0,0,0
+それで猟師は部屋に入り、ベッドに来てみると狼が寝ているのが見えました,"So the huntsman went into the room, and when he came to bed, he saw the wolf sleeping.",0,0,0,0,1
+「お前をここで見つけるとは,"""To find you here",0,0,0,0,0
+この罰当りめ,this punishment,0,0,0,0,0
+」と猟師は言いました,said the hunter,0,0,0,0,0
+「お前をずいぶん探したぞ,"""I've been looking for you",0,0,0,0,0
+」それから狼を狙って撃とうとしたとき、（狼はおばあさんを飲み込んだかもしれない、ひょっとしてまだ助かるかもしれないな,"' Then when he was about to shoot at the wolf, (The wolf may have swallowed the old woman, perhaps she could still be saved.",0,0,0,0,1
+）という気がしてきました,),0,0,0,0,0
+それで撃つのをやめ鋏をもってきて眠っている狼の腹を切り開き始めました,So I stopped shooting and got a pair of shears and started cutting open the belly of the sleeping wolf.,0,0,0,0,1
+チョキチョキと2回切ると、赤い頭巾が輝いているのが見え、またチョキチョキ2回切りました,"After snipping twice, you can see the red hood shining, and then snip twice again.",0,1,0,0,0
+すると小さな女の子が飛び出て、「ああ、とても怖かったわ,"Then a little girl jumped out and said, ""Oh, I was so scared.",0,0,0.67,0.33,0
+狼のお腹の中の暗かったこと!」と叫びました,"It was dark in the wolf's belly!"" cried",0,0,0,1,0
+そのあと、年とったおばあさんも生きて出てきましたが、息も絶え絶えでした,"After that, the old grandmother also came out alive, but not breathing.",0,0,0,0,1
+ところで、赤頭巾は急いで大きな石をとってきて、狼のお腹に詰めました,"By the way, Little Red Riding Hood quickly fetched a large stone and stuffed it into the wolf's belly.",0,0.5,0.25,0.25,0
+狼は目が覚めると逃げようとしましたが、石が重すぎてすぐにくず折れ死んで倒れました,"When the wolf woke up, he tried to run away, but the stone was so heavy that he immediately crumbled and fell to his death.",0,0.4,0.2,0.2,0.2
+それで三人は喜びました,So the three were happy,1,0,0,0,0
+猟師は狼の皮をはぎ、家に持ち帰りました,The hunter skinned the wolf and took it home,0,0,0,1,0
+おばあさんは赤頭巾がもってきたケーキを食べ、ワインを飲みましたが、赤頭巾は（これからは、おかあさんがそうしちゃいけないって言ってるとき、一人で道を出て、森へ走っていかないわ,"Grandmother ate the cake that Little Red Riding Hood brought and drank the wine, but Little Red Riding Hood (from now on, when Mother says she shouldn't, she won't leave the road and run into the woods alone.",0,0.4,0,0.2,0.4
+）と思いました,)I thought,0,0,0,0,0
+こういう話もありました,There was also a story like this,0,0,0,0,0
+あるとき、赤頭巾はまたおばあさんにケーキをもっていったとき、別の狼が話しかけてきて、赤頭巾を道からはずそうと誘いました,"Once, when Little Red Riding Hood was bringing cake to the old woman, another wolf spoke to her and invited her to get off the road.",0,0.25,0,0.25,0.5
+しかし、赤頭巾は警戒して、まっすぐ道を進み、おばあさんに、狼に会ったの、狼が私にお早うと言ったけれど目つきがとても悪かったわ、みんなの歩く道にいなかったらきっと私を食べていたでしょうね、と話しました,"But Little Red Riding Hood was wary, went straight ahead, and told the old woman, I met a wolf, who said good morning to me, but his eyes were so bad, if I hadn't been in the way they were walking I said you must have eaten",0,0.33,0,0.33,0.33
+「じゃあ」とおばあさんは言いました,"""Well then,"" said the old woman",0,0,0,0,0
+「狼が入って来ないように戸を閉めましょう,"""Let's close the door so the wolf doesn't come in.",1,0,0,0,0
+」そのあとまもなく、狼が戸をたたき、「おばあさん、戸を開けて、赤頭巾よ、ケーキを持って来てるの,"' Shortly afterwards the wolf knocked on the door and said, 'Grandmother, open the door, Little Red Riding Hood, I'm bringing you a cake.",0,0.5,0,0.25,0.25
+」と叫びました,' cried,0,0,0,0,0
+しかし、二人は口を言わないし、戸も開けませんでした,But they didn't say a word and didn't open the door.,0,1,0,0,0
+それで灰色ひげの狼は家のまわりを２，３回忍び歩き、とうとう屋根に飛び乗りました,So Graybeard Wolf stalked around the house a few times and finally jumped on the roof.,0,0,0.33,0,0.67
+そこで待って、赤頭巾が夕方に家に帰るとき、こっそりあとをつけ、暗闇にまぎれてたべようと思ったのです,"I thought I would wait there, and when Little Red Riding Hood returned home in the evening, I would follow her secretly, and eat her under the cover of darkness.",0,0.2,0.2,0.2,0.4
+しかし、おばあさんは狼の心の中を知っていました,But the old woman knew the heart of the wolf,0,0,0,1,0
+それで子供に言いました,so i told the kid,0.5,0,0,0.5,0
+「赤頭巾、家の前に大きな石のこね鉢がある,"""Little Red Riding Hood, there is a big stone kneading bowl in front of the house.",0,0.33,0.67,0,0
+手おけをとってきて,get me a bucket,0,0,0,0,0
+昨日ソーセージを作ったんだ,I made sausage yesterday,0,0,0,1,0
+私がソーセージをゆでたお湯をこね鉢に運んでおいで,Bring the water in which I boiled the sausage to the kneading bowl,0,0,0.25,0.75,0
+」赤頭巾は大きなこね鉢がすっかりいっぱいになるまでお湯を運びました,Little Red Riding Hood filled the big kneading bowl with hot water.,0,0.2,0.2,0.4,0.2
+するとソーセージの匂いが狼に届き、狼は鼻をヒクヒクさせ、下を覗き、首をあまりのばしすぎたので、もう足で支え切れなくなり、すべり出し、屋根からまっすぐ大きなこね鉢に滑り落ち、溺れてしまいました,"Then the smell of the sausages reached the wolf, who twitched his nose, looked down, and stretched his neck so far that he could no longer support himself on his legs, and began to slide off the roof straight into the great kneading bowl, where he drowned. was",0.2,0,0.2,0,0.6
+一方赤頭巾は楽しく家に帰り、誰も二度と赤頭巾に悪さをするものはいませんでした,"Little Red Riding Hood, on the other hand, went home happily, and no one ever hurt her again.",0.25,0.25,0,0.5,0

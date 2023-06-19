@@ -235,7 +235,9 @@ class PosteriorEncoder(nn.Module):
     self.proj = nn.Conv1d(hidden_channels, out_channels * 2, 1)
 
   def forward(self, x, x_lengths, g=None):
-    x_mask = torch.unsqueeze(commons.sequence_mask(x_lengths, x.size(2)), 1).to(x.dtype)
+    # print(x_lengths,"here is x_lengths from PosteriorEncoder forward")
+    # print(x.shape, x.shape[1])
+    x_mask = torch.unsqueeze(commons.sequence_mask(x_lengths, x.shape[1]), 1).to(x.dtype)
     x = self.pre(x) * x_mask
     x = self.enc(x, x_mask, g=g)
     stats = self.proj(x) * x_mask
@@ -448,7 +450,7 @@ class SynthesizerTrn(nn.Module):
         kernel_size,
         p_dropout)
     self.dec = Generator(inter_channels, resblock, resblock_kernel_sizes, resblock_dilation_sizes, upsample_rates, upsample_initial_channel, upsample_kernel_sizes, gin_channels=gin_channels)
-    self.enc_q = PosteriorEncoder(spec_channels, inter_channels, hidden_channels, 5, 1, 16, gin_channels=gin_channels)
+    self.enc_q = PosteriorEncoder(spec_channels, inter_channels, hidden_channels, 5, 1, 16, gin_channels=gin_channels) # voice_conversion
     self.flow = ResidualCouplingBlock(inter_channels, hidden_channels, 5, 1, 4, gin_channels=gin_channels)
 
     if use_sdp:
